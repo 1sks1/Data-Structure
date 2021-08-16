@@ -1,0 +1,26 @@
+class Solution {
+
+public:
+
+    int removeDuplicates(vector<int>& nums) {
+    
+        if(nums.size()>0)
+        {
+            //sort(nums.begin(),nums.end());        // use this if the vector is not sorted
+            
+            vector<int>::iterator ptr=nums.begin();
+            
+           while((ptr<nums.end()-1)&&(nums.size()>0))
+           {
+               if(*ptr==*(ptr+1))
+               
+                {
+                    nums.erase(ptr+1);
+                }
+               else
+                   ptr++;
+            }
+        }
+        return nums.size();
+    }
+};
