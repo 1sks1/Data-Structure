@@ -1,0 +1,35 @@
+class Solution {
+public:
+    vector<int> plusOne(vector<int>& digits) {
+        
+        // initialise a variable to track the value of an element of vector.
+        int val=0;
+        
+        // use for loop to iterate from last element to first element of  original vector.
+        for(int i=digits.size()-1;i>=0;i--)
+        {
+            
+        // val variable keeps the actual sum of carry from last digit and the current digit
+            val=val+digits[i];
+            
+            // increase the last digit of vector by 1.
+            if(i==digits.size()-1)
+                val++;
+            
+            // making value of last digit in range of 0 to 9.
+            digits[i]=val%10;
+            
+            //  keeping track of carry from last digit.
+            val=val/10;
+        }
+        
+        // if carry from first element of vector is non zero then put that carry at the               // begining of vector
+        if(val!=0)
+        {
+            digits.insert(digits.begin(),val);
+        }
+        
+        // return vector digits
+        return digits;
+    }
+};
