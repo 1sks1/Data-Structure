@@ -6,7 +6,7 @@ int only_odd_occurence(int num[],int length)
 	for(int i=0;i<length;i++)
 		res=res^num[i];
 	return res;
-	
+
 }
 int main()
 {
@@ -18,3 +18,5 @@ int main()
 	cout<<only_odd_occurence(arr,length);
 	return 0;
 }
+
+//time complexity is O(n).
