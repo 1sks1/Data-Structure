@@ -29,11 +29,24 @@ int total_set_bit2(int num)
 	}
 	return count;
 }
+
+// third approach: Brian Karnighan's approach
+int count_set_bits(int num)
+{
+	int count=0;
+	while(num>0)
+	{
+		num=num&(num-1);
+		count++;
+	}
+	return count;
+}
+
 int main()
 {
 	int num;
 	cin>>num;
-	cout<<total_set_bit2(num);
+	cout<<count_set_bits(num);
 	return 0;
 
 }
