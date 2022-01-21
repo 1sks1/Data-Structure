@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hi,
 I watched shershaah last night, so i went to bed at 4 AM but could not sleep untill 5:30 AM. So i woke up late( but usual time for me) at 10 AM.
 Did some of my responsibilites and had breakfast till 12:30 PM.
@@ -22,3 +23,29 @@ f.) Typing Master practice.
 
 Hope i could achieve todays goal. I have more than 10 hours to do these, which is more than enough. Current time- 12:30 PM.
 
+=======
+Hi,
+I watched shershaah last night, so i went to bed at 4 AM but could not sleep untill 5:30 AM. So i woke up late( but usual time for me) at 10 AM.
+Did some of my responsibilites and had breakfast till 12:30 PM.
+Time to do some real work for my academics- shortly- " Study Time".
+
+What i want to achieve in next 1-2 months:-
+I have lot of things in my mind which are really important. Like, doing Algo and Data structure course of GFG in c++, doing kunal kushwaha's data structure and algo course in JAVA.
+I know doing Algo and DS in one language is enough to and jobs but i have lots of time on my hand and it will be useful get grasp of Java as it is really popular for Jobs. But will do it slowly as i get to practice c++ while learning java.
+
+I have to continue Flutter as i have invested time and energy in understanding concepts and i can't let it go to waste, plus it will give me chance to do freelancing and land small internships.
+Waiting of result of financial aid application result for Machine Learning and matlab Advance course.
+
+I am really excited to follow gfg course to get good understanding of concepts of DS and then solve problems and upload them to my github repository.
+
+Todays Goals:-
+a.) Start lesson 3. Bit Manipulation of GFG course and Complete it.
+b.) solve 10 leetcode problems on time complexity and mathematics each and push them to github repository along with question.
+c.) Revise flutter map project and complete it.
+d.) Roam round github and learn more about it.
+e.) Search for goot courses related to flutter on coursera and apply for it.
+f.) Typing Master practice.
+
+Hope i could achieve todays goal. I have more than 10 hours to do these, which is more than enough. Current time- 12:30 PM.
+
+>>>>>>> d62f23cfcb0b1cba68c31d2a6b28ac38b40f9b3c
